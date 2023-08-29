@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    height: 60px;
+    font-family: raleway;
+}
+
+header, h1{
+    font-size: 50px;
+}
+
+main{
+    background-color: #000000;
+    text-align: center;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: raleway;
+
+}
+
+.parrafo{
+
+    width: 500px;
+    justify-content: left;
+    font-weight: 300;
+    height: 200px;
+    font-size: 16px;
+    padding: 50px;
+}
+
+.imagen-txt{
+    width: 400px;
+    padding: 45px;
+}
+
+.caracteristicas{
+    background-color: #1E1A13;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: raleway;
+    height: 210px;
+    padding-top: 30px;
+}
+
+h3{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.iconos{
+    display:  flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.alin{
+    padding-left: 120px;
+    padding-right: 100px;
+}
+
+.iconos, p{
+    padding: 20px;
+    font-weight: 300;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.imagen{
+    width: 300px;
+    padding: 5px;
+}
+
+footer{
+    color: #FFFFFF;
+    background-color: #1E1A13;
+    text-align: center;
+    font-family: raleway;
+    font-weight: 300;
+    font-size: 20px;
+    height: 60px;
+    padding: 15px;
+}
